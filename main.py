@@ -1,11 +1,10 @@
 import streamlit as st
-import requests
 
+st.set_page_config(page_title='Hello World', page_icon='👋', layout='wide')
 st.title('Hello World')
 
 st.write('This is a simple Streamlit app.')
 
-st.header('Website Navigation')
 st.divider()
 
 st.page_link('pages/1 search.py', label='Search the web', icon='🔍')

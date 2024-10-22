@@ -1,6 +1,7 @@
 import streamlit as st
 import os
 
+st.set_page_config(page_title='Hello World', page_icon='👋', layout='wide')
 st.title('Photo Gallery')
 
 # read file names from photos folder

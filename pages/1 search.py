@@ -1,6 +1,8 @@
 import streamlit as st
 import requests
 
+st.set_page_config(page_title='Hello World', page_icon='👋', layout='wide')
+
 st.title('Search the web')
 
 def search_bing(query, api_key):
